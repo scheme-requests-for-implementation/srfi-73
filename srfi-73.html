@@ -375,6 +375,7 @@ represent inexact numbers. </P>
 <DT><U>procedure:</U> <B>exact-&gt;inexact</B> <I><VAR>z</VAR></I>
 <DD>¡¡
 <DT><U>procedure:</U> <B>inexact-&gt;exact</B> <I><VAR>z</VAR></I>
+<DL>
 <DD><SAMP>`Exact-&gt;inexact'</SAMP> returns an inexact representation of
 <VAR>z</VAR>. The value returned is the inexact number that is numerically
 closest to the argument. If an exact argument has no reasonably close inexact
@@ -389,6 +390,7 @@ exact and inexact integers throughout an implementation-dependent range. See
 section <A href="http://srfi.schemers.org/srfi-70/srfi-70.html#6.2.3">6.2.3
 Implementation restrictions</A>.<BR><PRE><FONT color=red>(exact-&gt;inexact #e1/0)                  ==&gt;  #i1/0
 (inexact-&gt;exact #i1/0)                  ==&gt;  #e1/0</FONT></PRE>
+</DL>
 <H3>6.2.6 Numerical input and output</H3>
 <P>¡¡</P>
 <P>¡¡</P>
@@ -513,4 +515,5 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 <ADDRESS>Author: Chongkai Zhu</ADDRESS>
 <ADDRESS>Editors: <A href="mailto:srfi minus editors at srfi dot schemers dot org">Mike
-Sperber</A></ADDRESS></DD></BODY></HTML>
+Sperber</A></ADDRESS>
+</BODY></HTML>
