@@ -4,7 +4,7 @@
 
 
 
-keywords: [[https://srfi.schemers.org/?keywords=arithmetic][Arithmetic]]
+keywords: [[https://srfi.schemers.org/?keywords=numeric][Numeric]]
 
 This repository hosts [[https://srfi.schemers.org/srfi-73/][SRFI 73]]: Exact Infinities, a [[https://srfi.schemers.org/][Scheme Request for Implementation]].
 
